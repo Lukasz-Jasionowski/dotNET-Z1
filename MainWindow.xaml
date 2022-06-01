@@ -1,0 +1,45 @@
+﻿<Window x:Class="dotNET_Z1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dotNET_Z1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="0" Grid.Column="0">
+            <Button>Test button 1</Button>
+            <Button>Test button 2</Button>
+            <Button>Test button 3</Button>
+            <Button>Test button 4</Button>
+            <Button>Test button 5</Button>
+            <Button>Test button 6</Button>
+            <Button>Test button 7</Button>
+            <Button>Test button 8</Button>
+        </WrapPanel>
+
+        <ScrollViewer Grid.Row="1" Grid.Column="1" Width="100" HorizontalAlignment="Left">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
+                <Label>Test label 1</Label>
+                <Label>Test label 2</Label>
+                <Label>Test label 3</Label>
+                <Label>Test label 4</Label>
+                <Label>Test label 5</Label>
+                <Label>Test label 6</Label>
+                <Label>Test label 7</Label>
+                <Label>Test label 8</Label>
+                <Label>Test label 9</Label>
+                <Label>Test label 10</Label>
+                <Label>Test label 11</Label>
+                <Label>Test label 12</Label>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
