@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:dotNET_Z1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="300">
+        Title="Zadanie 1" Height="400" Width="350">
+    <Window.Resources>
+    </Window.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -22,13 +24,13 @@
             <Button>Test button 5</Button>
             <Button>Test button 6</Button>
             <Button>Test button 7</Button>
-            <Button>Test button 8</Button>
+            <Button Style="{StaticResource Specialny}">Test button 8</Button>
         </WrapPanel>
 
-        <ScrollViewer Grid.Row="1" Grid.Column="1" Width="100" HorizontalAlignment="Left">
+        <ScrollViewer Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left">
             <StackPanel Orientation="Vertical" VerticalAlignment="Stretch" HorizontalAlignment="Left" >
                 <Label>Test label 1</Label>
-                <Label>Test label 2</Label>
+                <Label Style="{StaticResource SpecialStyle}">Test label 2</Label>
                 <Label>Test label 3</Label>
                 <Label>Test label 4</Label>
                 <Label>Test label 5</Label>
